@@ -6,8 +6,7 @@ import { useContext } from 'react';
 import { AccountContext } from '../../../Contest/AccountProvider';
 import { getConversationDetails } from '../../../server/App'
 
-
-
+console.log()
 const ChatBox = () => {
   const [conversation, setConversation] = useState({});
   const { person, account } = useContext(AccountContext);
